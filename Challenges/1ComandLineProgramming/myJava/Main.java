@@ -14,6 +14,7 @@ public class Main {
 
     System.out.print("Your Name is " +name );
     System.out.print(" and your Age is " +age +".");
+		System.out.print("");
     sc.close();
   }
 }
