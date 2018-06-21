@@ -1,5 +1,5 @@
 /*
- * Debugging sample
+ * Debugging sample Solution
  */
 package debugging;
 import java.util.*;

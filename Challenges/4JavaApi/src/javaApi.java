@@ -1,0 +1,33 @@
+import java.text.*;
+import java.text.DateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+import java.util.Locale;
+
+public class javaApi {
+	
+
+	    /**
+	     * @param args the command line arguments
+	     */
+	    public static void main(String[] args) {
+	    /**
+	    * create SimpleDateFormat Object to convert the date in particular string format
+	    */
+	    DateFormat df = new SimpleDateFormat("MM/dd/yyyy");
+	    Date dt = new Date();
+	 
+	    /**
+	    * format method is used to convert the date in MM/dd/yyyy format
+	    */
+	    System.out.println("Date in MM/dd/yyyy format: "+df.format(dt));
+	    
+	    Locale localeFR = new Locale("fr", "FR");
+	    DateFormat df2 = DateFormat.getDateInstance(DateFormat.LONG, localeFR);
+	    System.out.println("France time: "+df2.format(dt));
+	        
+	    
+	    }
+	}
